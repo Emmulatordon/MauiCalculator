@@ -25,6 +25,24 @@
     </Style> 
 
     <!--#endregion-->
+
+    <!--#region Buttons -->
+    <Style TargetType="Button" x:Key="BaseButton">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource LightText},Dark={StaticResource DarkText }}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource LightSecondary},Dark={StaticResource DarkSecondary }}" />
+        <Setter Property="FontSize" Value="25" />
+        <Setter Property="FontFamily" Value="SublimaLight" />
+    </Style>
+    <Style TargetType="Button" BasedOn="{StaticResource BaseButton}" />
+
+    <Style TargetType="Button" x:Key="YellowButton" BasedOn="{StaticResource BaseButton}">
+        <Setter Property="TextColor" Value="{StaticResource YellowColor}" />
+    </Style>
+    <Style TargetType="Button" x:Key="RedButton" BasedOn="{StaticResource BaseButton}">
+        <Setter Property="TextColor" Value="{StaticResource RedColor}" />
+    </Style>
+    <!--#endregion-->
+
     <!--#region Boxview -->
     <Style TargetType="BoxView">
         <Setter Property="Color"
