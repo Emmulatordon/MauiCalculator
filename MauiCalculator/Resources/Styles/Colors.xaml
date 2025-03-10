@@ -5,8 +5,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     
     <Color x:Key="DarkText">#e3e9e3</Color>
-    <Color x:Key="LightText">#555a60</Color>
+    <Color x:Key="LightText">#555a60</Color>    
     
+    <Color x:Key="DarkPrimary">#292d36</Color>
+    <Color x:Key="DarkSecondary">#272b33</Color>
+
+    <Color x:Key="LightPrimary">#f2f2f2</Color>
+    <Color x:Key="LightSecondary">#f7f7f7</Color>
+
     <Color x:Key="Primary">#512BD4</Color>
     <Color x:Key="Secondary">#DFD8F7</Color>
     <Color x:Key="Tertiary">#2B0B98</Color>
